@@ -45,3 +45,15 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+#galeria{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, auto);
+  gap: 1rem;
+  padding: 1rem;
+  }
+#galeria-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

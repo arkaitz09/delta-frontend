@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+#papi{
+display: flex;
+justify-content: center;
+align-items: center;
+}
